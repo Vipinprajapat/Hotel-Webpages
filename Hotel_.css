@@ -1,0 +1,606 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* ------------------------------------header starts------------------------------------- */
+header{
+    position: relative;
+    height: 720px;
+    width: 100%;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    
+    top: 1%;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+}
+nav img{
+    height: 110px;
+    width: 220px;
+}
+nav ul{
+    
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+nav ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 100px;
+    padding-left: 80px;
+    font-size: 28px;
+    color:black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-style: italic;
+    color: wheat;
+}
+@keyframes round{
+    0%{transform: rotate(0deg);}
+    
+    100%{transform: rotate(360deg);}
+}
+.text1{
+text-align: center;
+height: 300px;
+width: 650px;
+left: 30%;
+top: 20%;
+position: absolute;
+font-size: 62px;
+color: black;
+animation-name: round;
+animation-duration: 1s;
+}
+
+
+
+
+
+
+/* ----------------------------------------maininput starts----------------------------- */
+.maininput{
+top: 55%;
+position: absolute;
+display: flex;
+left: 10%;
+height: 160px;
+width: 100%;
+}
+.input1, .input2, .input3, .input4{
+padding: 20px;
+font-size: 28px;
+color: white;
+font-style: italic;
+font-weight: 900;
+
+}
+
+.input1 input{
+    padding: 10px;
+    width: 180px
+}
+
+.input2 input{
+    padding: 10px;
+    width: 180px
+}
+.input3 select{
+    padding: 10px;
+    width: 150px
+}
+.input4 select{
+    padding: 10px;
+    width: 150px
+}
+.input5{
+    
+padding: 20px;
+}
+.input5 a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+border: 2px solid black;
+border-radius: 10px;
+background-color: white;
+padding: 10px;
+}
+.input5 a:hover{
+background-color: black;
+color: white;
+}
+
+
+/* -------------------------box1 starts----------------- */
+.box1{
+    
+    display: flex;
+    height: 700px;
+    width: 100%;
+    
+}
+.a1{
+    padding: 40px;
+    height: 100%;
+    width: 33.3%;
+}
+.a1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.a2{
+   
+    padding: 90px 60px 60px 60px;
+  
+    height: 70%;
+    width: 25%;
+}
+.a2 h1{
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2 p{
+    font-size: 22px;
+    font-style: italic;
+}
+.a2 a{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    
+}
+.a2 a:hover{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+.a3{
+    padding: 40px;
+    height: 100%;
+    width: 33.3%;
+}
+.a3 img{
+    height: 100%;
+    width: 100%;
+}
+  
+/* ------------------------text2 starts----------------- */
+
+.text2{
+    padding-left: 37px;
+}
+.text2 h1{
+    font-size: 48px;
+    color: black;
+}
+.text2 p{
+    font-size: 28px;
+    font-style: italic;
+}
+/* --------------------box2 starts--------------------------- */
+.box2{
+    background-color: whitesmoke;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    
+}
+.b1{
+    padding: 40px;
+    height: 400px;
+    width: 33.33%;
+}
+.b1 img{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.tb1{
+    color: white;
+    position: absolute;
+    top: 305%;
+    left: 5%;
+    height: 150px;
+    width: 250px;
+    
+}
+.tb1 p{
+    line-height: 18px;
+    font-size: 18px;
+    font-style: italic;
+}
+.tb1 p span{
+    font-size: 24px;
+}
+.b2{
+    padding: 40px;
+    height: 400px;
+    width: 33.33%;
+}
+.b2 img{
+    height: 400px;
+    width: 100%;
+}
+.tb2{
+    color: white;
+    position: absolute;
+    top: 305%;
+    left: 38%;
+    height: 150px;
+    width: 250px;
+    
+}
+.tb2 p{
+    line-height: 18px;
+    font-size: 18px;
+    font-style: italic;
+}
+.tb2 p span{
+    font-size: 24px;
+}
+.b3{
+    padding: 40px;
+    height: 400px;
+    width: 33.33%;
+}
+.b3 img{
+    height: 400px;
+    width: 100%;
+}
+.tb3{
+    color: white;
+    position: absolute;
+    top: 305%;
+    left: 72%;
+    height: 150px;
+    width: 250px;
+    
+}
+.tb3 p{
+    line-height: 18px;
+    font-size: 18px;
+    font-style: italic;
+}
+.tb3 p span{
+    font-size: 24px;
+}
+
+/* ------------------box3 starts-------------------- */
+.box3{
+    padding-top: 30px;
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.text3{
+    text-align: center;
+    padding-left: 18%;
+    height: 200px;
+    width: 950px;
+    font-size: 48px;
+
+}
+.rectangle{
+    margin-left: 230px;
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+.p1{
+    height: 100%;
+    width: 40%;
+}
+.p1 img{
+    height: 100%;
+    width: 100%;
+}
+.p2{
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 30%;
+}
+.p2 h1{
+    padding: 50px;
+    font-size: 42px;  
+}
+.p2 p{
+    padding: 20px 60px 30px 60px;
+    font-size: 22px;
+    font-style: italic;
+}
+.p2 a{
+    padding: 10px;
+    border: 2px solid coral;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: coral;
+    background-color: black;
+}
+.p2 a:hover{
+    background-color: coral;
+    color: black;
+}
+.tour{
+    padding-top: 60px;
+    font-size: 48px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+/* ------------------frame starts---------------------------- */
+.frame{
+    height: 850px;
+    width: 80%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    padding: 160px;
+}
+
+/* -----------------------box4 starts---------------------------------- */
+.text4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 54px;
+}
+.box4{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    height: 450px;
+    width: 95%;
+}
+
+.t1{
+    padding: 30px;
+    height: 450px;
+    width: 33.3%;
+}
+.t1 img{
+    height: 100%;
+    width: 100%;
+}
+.t2{
+    padding: 30px;
+    height: 450px;
+    width: 33.3%;
+}
+.t2 img{
+    height: 100%;
+    width: 100%;
+}
+.t3{
+    padding: 30px;
+    height: 450px;
+    width: 33.3%;
+}
+.t3 img{
+    height: 100%;
+    width: 100%;
+}
+.textbar1{
+    position: absolute;
+    top: 682%;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: white;
+    padding-left: 200px;
+}
+.textbar2{
+    visibility: visible;
+    top: 648%;
+    left: 10px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    height: 280px;
+    width: 100%;
+    color: white;    
+}
+
+.ht1{
+    
+    height: 100%;
+    width: 33%;
+    
+}
+.ht1 p{
+    font-style: italic;
+    font-size: 20px;
+    padding: 0px 60px 0px 60px;
+}
+.ht2{
+    height: 100%;
+    width: 33%;
+   
+}
+.ht2 p{
+    font-style: italic;
+    font-size: 20px;
+    padding: 0px 60px 0px 60px;
+}
+.ht3{
+    height: 100%;
+    width: 33%;
+    
+}
+.ht3 p{
+    font-style: italic;
+    font-size: 20px;
+    padding: 0px 60px 0px 60px;
+}
+
+/* ----------------review starts--------------- */
+
+.review{
+    padding-top: 60px;
+    margin-top: 100px;
+    font-family: monospace;
+    display: flex;
+    background-color: antiquewhite;
+    height: 350px;
+    width: 100%;
+}
+.r1{
+    height: 100%;
+    width: 50%;
+}
+.r1 h1{
+    padding-left: 60px;
+}
+.r1 p{
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px 60px 10px 60px;
+}
+.r2{
+    height: 100%;
+    width: 50%;
+}
+.r2 h1{
+    padding-left: 60px;
+}
+.r2 p{
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px 60px 10px 60px;
+}
+
+/* -------------------footer starts------------ */
+footer{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.f1{
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 88%;
+    width: 30%;
+}
+.f1 img{
+    height: auto;
+    width: auto;
+}
+footer .icons{
+    height: auto;
+    width: 100%;
+    word-spacing: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+    padding-bottom: 0px;
+}
+.f1 h1{
+
+    font-size: 48px;
+}
+.f1 p{
+    font-size: 22px;
+    font-style: italic;
+}
+.f2{
+    padding-top: 50px;
+   
+    height: 90%;
+    width: 20%;
+}
+.f2 h1{
+    font-size: 24px;
+}
+.f2 ul{
+    list-style-type: none;
+}
+.f2 li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.f2 li,a{
+    padding-bottom: 20px;
+}
+.f3{
+    padding-bottom: 0px;
+    padding-top: 50px;
+    
+    height: 90%;
+    width: 20%;
+}
+.f3 h1{
+    font-size: 24px;
+}
+.f3 ul{
+    list-style-type: none;
+}
+.f3 li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.f3 li,a{
+    padding-bottom: 20px;
+}
+.f4{
+    padding-top: 50px;
+    height: 90%;
+    width: 30%;
+}
+.f4 h1{
+    font-size: 24px;
+}
+.f4 p{
+    font-size: 22px;
+    font-style: italic;
+}
+.f4 input{
+    font-size: 18px;
+    padding: 10px;
+}
+.devloper{
+    left: 20%;
+    top: 817%;
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+   
+}
+
+
+
+
+
+
+
+
